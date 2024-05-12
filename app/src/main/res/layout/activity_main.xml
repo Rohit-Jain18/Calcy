@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/purple"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/heading"
+        android:textColor="@color/Text"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/result"
+        android:textColor="@color/Text"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/firstno"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="@string/fistno"
+        android:textColor="@color/Text"
+        android:importantForAutofill="no"
+        android:textColorHint="@color/Text"
+        android:layout_marginTop="65dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/secondno"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="@color/Text"
+        android:hint="@string/secondnum"
+        android:importantForAutofill="no"
+        android:textColorHint="@color/Text"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        />
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/select_operation"
+        android:textColor="@color/Text"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:text="@string/addition"
+            android:id="@+id/add"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/voilet" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:text="@string/sub"
+            android:id="@+id/sub"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/voilet" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:text="@string/mulitply"
+            android:id="@+id/multiply"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/voilet" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:text="@string/div"
+        android:id="@+id/division"
+        android:backgroundTint="@color/voilet"
+        />
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/calculate"
+        android:id="@+id/calculate"
+        android:backgroundTint="@color/voilet"
+        />
+
+
+</LinearLayout>

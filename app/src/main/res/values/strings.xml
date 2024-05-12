@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalCy</string>
+    <string name="heading">CalCY By Rohit</string>
+    <string name="fistno">Enter the first no.</string>
+    <string name="secondnum">Enter the Second No.</string>
+    <string name="addition">+</string>
+    <string name="sub">-</string>
+    <string name="div">/</string>
+    <string name="mulitply">*</string>
+    <string name="select_operation">Select Operation</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+</resources>
